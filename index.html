@@ -4,69 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/reset.css">
-    <link rel="stylesheet" href="./assets/style.css">
-
     <!-- google fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- CSS Reset and stylesheet -->
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Jackson Myhre</title>
 </head>
 <body>
     <header>
-        <h2>Jackson Myhre</h2>
+        <h1>Jackson Myhre</h1>
 
         <nav class="nav">
             <a href="#">About Me</a>
             <a href="#">Work</a>
             <a href="#">Contact Me</a>
         </nav>
-        <h2 class="banner">Portfolio</h2>
     </header>
-
+    
+    <div class="banner">
+        <h2 class="subtitle">Portfolio</h2>
+    </div>
     
 
     <main>
-        <section>
-            <aside class="sidebar">
+        <section class="section about">
+            <div class="section-title">
                 <h2>About Me</h2>
-            </aside>
+            </div>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, nostrum, magni animi aliquam excepturi at beatae reprehenderit illum repellat, aut ab nesciunt adipisci dignissimos! Voluptatibus voluptatem tempore odio aspernatur obcaecati.</p>
         </section>
-
-        <aside class="sidebar">
-            <h2>Work</h2>
-        </aside>
-        <section>
+        <section class="section" id="work">
+            <div class="section-title">
+                <h2>Work</h2>
+            </div>
             <!-- Add alts and change project names -->
-            <div>
+            <div class="projects">
                 <a href="#">
                     <img src="https://via.placeholder.com/600x400" alt="">
                 </a>
                 <p>Project One</p>
             </div>
-            <div>
+            <div class="projects">
                 <a href="#">
                     <img src="https://via.placeholder.com/200x200" alt="">
                 </a>
                 <p>Project Two</p>
 
             </div>
-            <div>
+            <div class="projects">
                 <a href="#">
                     <img src="https://via.placeholder.com/200x200" alt="">
                 </a>
                 <p>Project Three</p>
 
             </div>
-            <div>
+            <div class="projects">
                 <a href="#">
                     <img src="https://via.placeholder.com/200x200" alt="">
                 </a>
                 <p>Project Four</p>
             </div>
-            <div>
+            <div class="projects">
                 <a href="#">
                     <img src="https://via.placeholder.com/200x200" alt="">
                 </a>
@@ -77,11 +78,11 @@
         
         
     </main>
-    <aside class="sidebar">
-        <h2>Contact Me</h2> 
-    </aside>
-    <footer>
-        <ul>
+    <footer class="section contact">
+        <div class="section-title">
+            <h2>Contact Me</h2> 
+        </div>
+        <ul class="contact-links">
             <li>jack421myhre@gmail.com</li>
             <li><a href="#">Github</a></li>
             <li><a href="#">LinkedIn</a></li>

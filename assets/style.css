@@ -1,12 +1,56 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .banner {
     background-image: url(banner.jpg);
     background-size: cover;
     width: 100%;
     height: 100px;
+}
+
+.section {
+    display: flex;
+    /* Change flex direction to see how it lines up  */
+    flex-direction: column;
+    border: 1px solid turquoise;
+}
+
+#work {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.section-title {
+    display: flex;
+    justify-content: center;
+    border: 1px solid yellow;
+}
+
+
+.projects {
+    display: flex;
     border: 1px solid red;
 }
 
-main {
+
+.contact-links {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid wheat;
 }
+
+
+
+
 
