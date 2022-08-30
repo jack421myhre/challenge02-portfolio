@@ -18,23 +18,27 @@
         <h1>Jackson Myhre</h1>
 
         <nav class="nav">
-            <a href="#about-section">About Me</a>
-            <a href="#work-section">Work</a>
-            <a href="#contact-section">Contact Me</a>
+            <a href="#about">About Me</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact Me</a>
         </nav>
     </header>
     
     <div class="banner">
-        <h3 class="subtitle">Portfolio</h3>
+        <h3 class="subtitle">NU Bootcamp Portfolio</h3>
     </div>
     
 
     <main>
         <!-- about section -->
+
         <aside>
-            <h2 class="section-title">About Me</h2>
+            <h2 class="section-title" id="about">About Me</h2>
         </aside>
-        <section class="about-section" id="about">
+        <section class="about-section" >
+            <div class="headshot">
+                <img src="assets/images/headshot2.jpg" alt="A headshot of Jackson Myhre, seated and outdoors.">
+            </div>
             <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, nostrum, 
                 magni animi aliquam excepturi at beatae reprehenderit illum repellat, aut ab nesciunt 
@@ -50,57 +54,71 @@
 
         <!-- work section -->
         <aside>
-            <h2 class="section-title">Work</h2>
+            <h2 class="section-title" id="work">Work</h2>
         </aside>
         <section class="work-section">
             <!-- Add alts and change project names -->
             <!-- feature project -->
-            
-            <div class="img-container" id="feature-project">
+            <div id="feature-project">
                 <a href="#">
-                    <img src="assets/images/study-guide.jpg" alt="">
+                    <img src="assets/images/study-guide.jpg" alt="four books stacked, the top book is flipping open.">
+                    <div id="feature-subtitle">
+                        Study Guide
+                    </div>
                 </a>
             </div>
-                <!-- <p>Project One</p> -->
             
             <!-- other projects -->
+            <!-- <p>Project One</p> -->
             <div class="projects">
+                
                 <a href="#">
-                    <img src="https://via.placeholder.com/300x100" alt="">
+                    <img src="assets/images/code-refactor.jpg" alt="A computer screen with lines of code.">
+                    <div class="work-subtitle">
+                        Code Refactor
+                    </div>
                 </a>
             </div>
-                <!-- <p>Project Two</p> -->
             
+            <!-- <p>Project Two</p> -->
             <div class="projects">
                 <a href="#">
-                    <img src="https://via.placeholder.com/300x100" alt="">
+                    <img src="assets/images/webvr.jpg" alt="A person standing with their hands out, a Virtual Reality headset and headphones on.">
+                    <div class="work-subtitle">
+                        Web VR
+                    </div>
                 </a>
             </div>
-                <!-- <p>Project Three</p> -->
-
+            
+            <!-- <p>Project Three</p> -->
             <div class="projects">
                 <a href="#" >
-                    <img src="https://via.placeholder.com/300x100" alt="">
+                    <img src="assets/images/home-auto.jpg" alt="Amazon Alexa on a bookshelf, four white circular lights are displayed on the Alexa.">
+                    <div class="work-subtitle">
+                        Automation
+                    </div>
                 </a>
             </div>
-                <!-- <p>Project Four</p> -->
-
+            
+            <!-- <p>Project Four</p> -->
             <div class="projects">
-                <a href="#" class="projects">
-                    <img src="https://via.placeholder.com/300x100" alt="">
+                <a href="#">
+                    <img src="assets/images/blog.jpg" alt="A typewriter writing something. It says 'Something worth reading'.">
+                    <div class="work-subtitle">
+                        Blog
+                    </div>
                 </a>
             </div>
-                <!-- <p>Project Five</p> -->
         </section>
         
         <aside>
-            <h2 class="section-title">Contact Me</h2> 
+            <h2 class="section-title" id="contact">Contact Me</h2> 
         </aside>
-        <section id="contact-section">
+        <section>
             <ul class="contact-links">
                 <li><a href="mailto:jack421myhre@gmail.com">Send Email</a></li>
-                <li><a href="#">Github</a></li>
-                <li><a href="#">LinkedIn</a></li>
+                <li><a href="https://github.com/jack421myhre" target="_blank">Github</a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn (WIP)</a></li>
             </ul>
         </section>
     </main>
